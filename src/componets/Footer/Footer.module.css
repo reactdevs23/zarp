@@ -1,0 +1,76 @@
+.footerContainer {
+  padding: 80px 0;
+  background: linear-gradient(97deg, #5e48e6 -4.83%, rgba(94, 72, 230, 0) 122%);
+  position: relative;
+}
+.starImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-17%, -50%);
+  display: none;
+  width: 200px;
+}
+.circleImg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(30%, -107%);
+  display: none;
+  width: 130px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.logo {
+  width: 124px;
+}
+.socialContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reachUs {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.icon {
+  font-size: 30px;
+  color: #fff;
+}
+@media only screen and (max-width: 520px) {
+  .footerContainer {
+    padding: 50px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .logo {
+    width: 100px;
+  }
+  .reachUs {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .starImg,
+  .circleImg {
+    display: block;
+  }
+}

@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import BillPayments from "./componets/BillPayments/BillPayments";
+import CrossBorderPayments from "./componets/CrossBorderPayments/CrossBorderPayments";
+import CurrencySwap from "./componets/CurrencySwap/CurrencySwap";
+import Footer from "./componets/Footer/Footer";
+import Header from "./componets/Header/Header";
+import HeroSection from "./componets/HeroSection/HeroSection";
+import Info from "./componets/Info/Info";
+import OverTheCounter from "./componets/OverTheCounter/OverTheCounter";
+import PaymentGateWay from "./componets/PaymentGateWay/PaymentGateWay";
+import SecureVault from "./componets/SecureVault/SecureVault";
+import SportTrading from "./componets/SportTrading/SportTrading";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <HeroSection />
+      <Info />
+      <BillPayments />
+      <CrossBorderPayments />
+      <PaymentGateWay />
+      <CurrencySwap />
+      <SecureVault />
+      <OverTheCounter />
+      <SportTrading />
+      <Footer />
+    </>
   );
 }
 

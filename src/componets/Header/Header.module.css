@@ -1,0 +1,33 @@
+.headerContainer {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+.headerBg {
+  background: #0c0243;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1304px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(148, 131, 252, 0.36);
+  padding: 25px 0;
+}
+
+.logo {
+  width: 93px;
+}
+.contactUs {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.68px;
+  background: transparent;
+}

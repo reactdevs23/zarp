@@ -41,8 +41,8 @@ const Footer = () => {
           </div>
         </div>
       </div>{" "}
-      <img src={circle} alt="#" className={styles.circleImg} />
-      <img src={star} alt="#" className={styles.starImg} />
+      {/* <img src={circle} alt="#" className={styles.circleImg} />
+      <img src={star} alt="#" className={styles.starImg} /> */}
     </footer>
   );
 };

@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      <Info />
+
       <BillPayments />
       <CrossBorderPayments />
       <PaymentGateWay />

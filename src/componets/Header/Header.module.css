@@ -1,7 +1,7 @@
 .headerContainer {
   position: fixed;
   z-index: 2;
-  width: 100%;
+  width: 100vw;
 }
 .headerBg {
   background: #0c0243;
